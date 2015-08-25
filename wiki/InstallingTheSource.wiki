@@ -1,0 +1,18 @@
+#summary How to compile and run the game.
+
+= Introduction =
+
+This game is being developed in C++ using Visual Studio 2005.  This page details the steps required to go from a repository check-out to a running application. 
+
+= Details =
+
+1. Check out via subversion: http://zombie-game.googlecode.com/svn/trunk/ into any directory (e.g., /Development/ZombieGame/.  I haven't had luck with this, but then I use the administrator https version.
+
+2. In the parent of the checkout directory (e.g, /Development/), create a directory named SDKs.
+
+3. In the SDKs directory, I have ogrenew (the Ogre Eihort source code), NxOgre, AGEIA270 (PhysX sdk, installed from the package) and boost.  The boost directory has the include and lib directories /boost/include/boost/{.hpp} and /boost/lib/{.lib}.
+
+4. Copy the required DLLs: TODO: list of DLLs.
+
+5. Copy the media: TODO: Media download.
+

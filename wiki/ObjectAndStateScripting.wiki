@@ -1,0 +1,18 @@
+#summary A method for scripting states in the game.
+
+= Introduction =
+
+In order to facilitate rapid development of quests, NPC interactions and other general game data, a method for scripting the various interactions is needed.  These scripts need to be plain text, human readable and hot-loaded into the game (i.e., changes made while the game is running will loaded into the game as soon as possible, while it is running).
+
+= Details =
+
+1. The object definition section.
+
+Object name="Object Name"
+{
+  State name="State Name" value="State Value"
+  State name="State Name" value="State Value"
+}
+
+2. The state interaction section.
+

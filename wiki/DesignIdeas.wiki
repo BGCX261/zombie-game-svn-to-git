@@ -1,0 +1,14 @@
+#summary Design Scratch-Pad, for current design ideas.
+#labels Phase-Design
+
+= Introduction =
+
+This page is for detailing ideas about the structure of the game.  As an idea becomes more concrete, it'll get its own page.
+
+== Command and Action System ==
+
+Objects in the game need to take orders and perform actions.  The actions that result from general orders such as Select and Point are specified by the state of the object.  If a player clicks on one of their units, a select order is given to the player's unit and that unit will be selected.  If a player's unit is selected, and a player clicks on an enemy unit, then a select order is passed to the _selected player's unit_.  That object then processes the order based on its state - e.g., the unit might perform an attack action, with the clicked enemy as the target.  If the player had clicked on an object (e.g., a door), then the object might perform a use action (open the door), or the state of the object might cause it to perform an attack action (e.g., forced attack on the door).
+
+How can the player's object be put into a forced attack state, or other specific state?  Usually this is done through the GUI, with a specific attack command rather than context-sensitive mouse-over/click command (though, the context-sensitive command means switching into the specific state before issuing a command).  The GUI object sends a command to the selected object, perhaps a "Disposition" command with either a Friendly, Neutral or Aggressive value?  Mousing-over a human will set disposition to Friendly (if currently neutral), mousing over a Zombie will set disposition to Aggressive (if currently neutral).  Clicking Forced Attack will set disposition to Aggressive, and will not be set to Friendly when mousing over a human, until the forced attack is canceled.
+
+

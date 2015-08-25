@@ -1,0 +1,8 @@
+#summary All about me.
+
+My name is Matthew Chudleigh.  Currently I work at the University of Southern Queensland as a programmer in the [http://www.alivex3d.org/ ALIVE] team.
+
+In my spare time I am developing this Zombie game (among other hobbies).
+
+I work mainly in C++.  I've played with Python, Ruby, Erlang, and Lisp.
+

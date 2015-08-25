@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZombieProject", "ZombieProject.vcproj", "{E73D3937-5E27-49CD-85C1-D4CEC98B5AD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E73D3937-5E27-49CD-85C1-D4CEC98B5AD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E73D3937-5E27-49CD-85C1-D4CEC98B5AD0}.Debug|Win32.Build.0 = Debug|Win32
+		{E73D3937-5E27-49CD-85C1-D4CEC98B5AD0}.Release|Win32.ActiveCfg = Release|Win32
+		{E73D3937-5E27-49CD-85C1-D4CEC98B5AD0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

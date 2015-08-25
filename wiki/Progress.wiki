@@ -1,0 +1,21 @@
+#summary How's it coming?
+
+= Features =
+
+== Pseudo-Random City ==
+
+ - Building Generation: Floor plans are generated randomly based on a specific seed.
+
+== Camera Control ==
+ 
+ - Camera class, no real camera control.  Not sure if it should be component-based...
+
+== Graphical User Interface ==
+
+ - Mouse available.
+
+== Save / Load System ==
+
+ - Most components have the serialize method, got to work this one out too.
+
+

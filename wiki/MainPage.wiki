@@ -1,0 +1,17 @@
+#summary Main page
+
+= Introduction =
+
+This is the Zombie Game wiki.
+
+= Pages =
+
+[Progress Development Progress]
+
+[InstallingTheSource Installing and Running the Game]
+
+[AboutMe About Me]
+
+= Links =
+
+[http://aim.adc.rmit.edu.au/phd/sgreuter/ Infinite Cities]
